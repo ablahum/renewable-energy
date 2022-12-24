@@ -20,7 +20,7 @@
   margin-top: 1em;
 }
 
-.card__price h3 {
+.card__price h4 {
   font-size: 3rem;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .card__lists {
-  padding: 0 2em;
+  padding: 0 1.5em;
 }
 
 .pricing__content {

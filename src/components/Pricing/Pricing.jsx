@@ -5,20 +5,23 @@ const datas = [
     id: 1,
     title: 'SINGLE',
     price: 50,
+    desc: ['Ut sit quam faucibus et.', 'Auctor augue massa.', 'Porta sapien.'],
   },
   {
     id: 2,
     title: 'DOUBLE',
     price: 75,
+    desc: ['Ut sit quam faucibus et.', 'Auctor augue massa.', 'Porta sapien.', 'Elementum sagittis in at.'],
   },
   {
     id: 3,
     title: 'TRIPLE',
     price: 100,
+    desc: ['Ut sit quam faucibus et.', 'Auctor augue massa.', 'Porta sapien.', 'Elementum sagittis in at.', 'Sapien et arcu in.'],
   },
 ];
 
-const Card = ({ title, price }) => (
+const Card = ({ title, price, desc }) => (
   <div className="card">
     <div className="card__title">
       <h3>{title}</h3>
@@ -27,7 +30,7 @@ const Card = ({ title, price }) => (
     <div className="card__price">
       <p>Rp</p>
 
-      <h3>{price}</h3>
+      <h4>{price}</h4>
 
       <p>juta</p>
     </div>
@@ -36,9 +39,9 @@ const Card = ({ title, price }) => (
 
     <div className="card__lists">
       <ul>
-        <li>asd</li>
-        <li>asd</li>
-        <li>asd</li>
+        {desc.map((item) => (
+          <li>{item}</li>
+        ))}
       </ul>
     </div>
   </div>
@@ -56,6 +59,7 @@ const Pricing = () => (
           id={data.id}
           title={data.title}
           price={data.price}
+          desc={data.desc}
         />
       ))}
     </div>
