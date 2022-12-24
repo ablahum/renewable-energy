@@ -19,16 +19,15 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
 }
 
 .container {
-  padding-left: 170px;
-  padding-right: 170px;
+  /* padding-left: 400px;
+  padding-right: 400px; */
 }
 
 .section {
-  margin: 72.5px 0;
+  padding: 72.5px 0;
 }
 
 .title {
