@@ -33,6 +33,7 @@ const Testimonial = () => (
 
         <p>Founder of The Equals</p>
       </div>
+
       <div className="arrow">
         <img
           src={arrow}

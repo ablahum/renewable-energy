@@ -32,3 +32,9 @@
   text-decoration: none;
   color: var(--muted);
 }
+
+@media (max-width: 768px) {
+  .navbar__menu ul li {
+    margin: 0 0.5em;
+  }
+}

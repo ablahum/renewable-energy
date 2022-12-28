@@ -24,3 +24,9 @@
 .testimonial__words p:last-child {
   font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+  .testimonial__content {
+    flex-direction: column;
+  }
+}
