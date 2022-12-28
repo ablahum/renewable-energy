@@ -9,3 +9,13 @@
 .partner__content img:nth-child(2) {
   margin: 0 10em;
 }
+
+@media (max-width: 768px) {
+  .partner__content {
+    flex-direction: column;
+  }
+
+  .partner__content img:nth-child(2) {
+    margin: 5em 0;
+  }
+}

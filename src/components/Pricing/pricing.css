@@ -6,7 +6,6 @@
 
 .card:nth-child(2) {
   margin: 0 3em;
-  /* flex-grow: 1; */
 }
 
 .card__title {
@@ -46,4 +45,15 @@
 .pricing__content {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .pricing__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card:nth-child(2) {
+    margin: 3em 0;
+  }
 }
