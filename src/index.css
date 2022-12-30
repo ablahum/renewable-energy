@@ -8,7 +8,6 @@
   --black: #000;
 
   --bg-navbar: linear-gradient(180deg, #b6dfff 0%, rgba(255, 255, 255, 0) 119.68%), #ffffff;
-
   --bg-footer: linear-gradient(180deg, #fff 30.21%, rgba(189, 226, 255, 0.5) 67.71%, rgba(197, 230, 255, 0) 100%), #b6dfff;
   --bg-button: linear-gradient(92.99deg, rgba(250, 67, 0, 0) 6.76%, rgba(241, 111, 18, 0.692708) 46.36%, #ed821a 91.25%), #fa4300;
 }
