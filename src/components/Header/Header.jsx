@@ -11,13 +11,13 @@ const Header = () => (
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis amet eu vulputate et eu. Elit pulvinar pulvinar feugiat neque morbi. Pretium at nam dui leo tortor morbi eget donec sit. Urna, sit amet lectus cum habitant.</p>
 
-      <button type="button">PESAN SEKARANG</button>
+      <button type="button">pesan sekarang</button>
     </div>
 
     <div className="header__right">
       <img
         src={header}
-        alt="house"
+        alt="house illustration"
       />
     </div>
   </div>

@@ -13,6 +13,11 @@
 @media (max-width: 768px) {
   .partner__content {
     flex-direction: column;
+    padding: 4em 0;
+  }
+
+  .partner__content img {
+    width: 300px;
   }
 
   .partner__content img:nth-child(2) {
