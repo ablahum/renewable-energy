@@ -33,8 +33,27 @@
   color: var(--muted);
 }
 
-@media (max-width: 768px) {
+.navbar__menu-res {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
   .navbar__menu ul li {
     margin: 0 0.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__menu-res,
+  .res__menu-icon {
+    display: block;
+  }
+
+  .res__menu {
+    display: none;
   }
 }

@@ -12,17 +12,17 @@ const Partner = () => (
     <div className="partner__content">
       <img
         src={telkom}
-        alt="telkom"
+        alt="telkom logo"
       />
 
       <img
         src={telu}
-        alt="telu"
+        alt="tel-u logo"
       />
 
       <img
         src={uin}
-        alt="uin"
+        alt="uin logo"
       />
     </div>
   </div>
