@@ -4,7 +4,7 @@ import telu from '../../assets/tel-u.svg';
 import uin from '../../assets/uin.svg';
 
 const Partner = () => (
-  <div className="partner section container">
+  <div className="partner section">
     <div className="title">
       <h2>Partner Kami</h2>
     </div>

@@ -27,8 +27,8 @@ body {
 }
 
 .container {
-  /* padding-left: 400px;
-  padding-right: 400px; */
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .section {
@@ -47,7 +47,7 @@ body {
   font-size: 1.2rem; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .section {
     margin: 100px 0;
   }
