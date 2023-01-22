@@ -2,7 +2,10 @@ import './about.css';
 import about from '../../assets/about.svg';
 
 const About = () => (
-  <div className="about section container">
+  <div
+    className="about section container"
+    id="about"
+  >
     <div className="title">
       <h2>
         Apa itu <i>Solar Panel</i>?

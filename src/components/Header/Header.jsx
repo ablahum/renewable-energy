@@ -2,7 +2,10 @@ import './header.css';
 import header from '../../assets/header.svg';
 
 const Header = () => (
-  <div className="header container">
+  <div
+    className="header container"
+    id="home"
+  >
     <div className="header__left">
       <h1>
         Solusi Untuk <br />

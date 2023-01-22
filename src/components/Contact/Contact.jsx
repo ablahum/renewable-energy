@@ -2,7 +2,10 @@ import './contact.css';
 import contact from '../../assets/contact.svg';
 
 const Contact = () => (
-  <div className="contact section container">
+  <div
+    className="contact section container"
+    id="contact"
+  >
     <div className="title">
       <h2>Kontak</h2>
     </div>
