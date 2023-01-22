@@ -39,8 +39,8 @@ const Card = ({ title, price, desc }) => (
 
     <div className="card__lists">
       <ul>
-        {desc.map((item) => (
-          <li>{item}</li>
+        {desc.map((item, i) => (
+          <li key={i}>{item}</li>
         ))}
       </ul>
     </div>
@@ -48,7 +48,10 @@ const Card = ({ title, price, desc }) => (
 );
 
 const Pricing = () => (
-  <div className="pricing section container">
+  <div
+    className="pricing section container"
+    id="pricing"
+  >
     <div className="title">
       <h2>Pricing</h2>
     </div>
@@ -56,6 +59,7 @@ const Pricing = () => (
     <div className="pricing__content">
       {datas.map((data) => (
         <Card
+          key={data.id}
           id={data.id}
           title={data.title}
           price={data.price}

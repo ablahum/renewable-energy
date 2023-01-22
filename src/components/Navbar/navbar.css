@@ -1,7 +1,6 @@
 .navbar {
   background: var(--bg-navbar);
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding: 1.5em 4em !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,11 +32,11 @@
   color: var(--muted);
 }
 
-.navbar__menu-res {
-  display: none;
-}
-
 @media screen and (max-width: 992px) {
+  .navbar {
+    padding: 1.5em !important;
+  }
+
   .navbar__menu ul li {
     margin: 0 0.5em;
   }
@@ -45,15 +44,6 @@
 
 @media screen and (max-width: 600px) {
   .navbar__menu {
-    display: none;
-  }
-
-  .navbar__menu-res,
-  .res__menu-icon {
-    display: block;
-  }
-
-  .res__menu {
     display: none;
   }
 }
