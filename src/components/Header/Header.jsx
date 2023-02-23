@@ -1,12 +1,12 @@
-import './header.css';
-import header from '../../assets/header.svg';
+import './header.css'
+import header from '../../assets/header.svg'
 
 const Header = () => (
   <div
-    className="header container"
-    id="home"
+    className='header container'
+    id='home'
   >
-    <div className="header__left">
+    <div className='header__content'>
       <h1>
         Solusi Untuk <br />
         Keluarga Anda
@@ -14,16 +14,16 @@ const Header = () => (
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis amet eu vulputate et eu. Elit pulvinar pulvinar feugiat neque morbi. Pretium at nam dui leo tortor morbi eget donec sit. Urna, sit amet lectus cum habitant.</p>
 
-      <button type="button">pesan sekarang</button>
+      <button type='button'>pesan sekarang</button>
     </div>
 
-    <div className="header__right">
+    <div className='header__image'>
       <img
         src={header}
-        alt="house illustration"
+        alt='house illustration'
       />
     </div>
   </div>
-);
+)
 
-export default Header;
+export default Header
