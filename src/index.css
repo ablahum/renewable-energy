@@ -9,7 +9,9 @@
 
   --bg-navbar: linear-gradient(180deg, #b6dfff 0%, rgba(255, 255, 255, 0) 119.68%), #ffffff;
   --bg-footer: linear-gradient(180deg, #fff 30.21%, rgba(189, 226, 255, 0.5) 67.71%, rgba(197, 230, 255, 0) 100%), #b6dfff;
+
   --bg-button: linear-gradient(92.99deg, rgba(250, 67, 0, 0) 6.76%, rgba(241, 111, 18, 0.692708) 46.36%, #ed821a 91.25%), #fa4300;
+  --button-shadow: drop-shadow(0px 4px 10px rgba(241, 111, 18, 0.73));
 }
 
 ::selection {
@@ -27,44 +29,39 @@ body {
 }
 
 .container {
-  /* padding: 0 120px; */
-  /* padding: 80px 120px; */
-  padding: 8rem 0;
   margin: 0 8rem;
 }
 
 .section {
-  /* margin: 80px 0; */
-  /* margin: 8em 0; */
+  padding: 5rem 0;
 }
 
 .title {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 100px;
-}
-
-.desc {
-  /* font-weight: 600;
-  font-size: 1.2rem; */
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 992px) {
   .container {
-    padding: 0 80px;
+    margin: 0 5rem;
   }
 
   .section {
-    margin: 100px 0;
+    padding: 4rem 0;
   }
 
   .title {
-    margin-bottom: 50px;
+    margin-bottom: 4rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 0 40px;
+    margin: 0 2rem;
+  }
+
+  .title h2 {
+    font-size: 1.5rem;
   }
 }
