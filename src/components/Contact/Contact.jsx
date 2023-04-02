@@ -1,22 +1,22 @@
-import './contact.css';
-import contact from '../../assets/contact.svg';
+import './contact.css'
+import contact from '../../assets/contact.svg'
 
 const Contact = () => (
   <div
-    className="contact section container"
-    id="contact"
+    className='contact section container'
+    id='contact'
   >
-    <div className="title">
+    <div className='title'>
       <h2>Kontak</h2>
     </div>
 
-    <div className="contact__content">
-      <div>
+    <div className='contact__content'>
+      {/* <div>
         <img
           src={contact}
           alt="house"
         />
-      </div>
+      </div> */}
 
       <div>
         <form>
@@ -24,8 +24,8 @@ const Contact = () => (
             <h3>NAMA:</h3>
 
             <input
-              type="text"
-              placeholder="Tulis nama..."
+              type='text'
+              placeholder='Tulis nama...'
             />
           </div>
 
@@ -33,8 +33,8 @@ const Contact = () => (
             <h3>EMAIL:</h3>
 
             <input
-              type="text"
-              placeholder="Tulis email..."
+              type='text'
+              placeholder='Tulis email...'
             />
           </div>
 
@@ -42,14 +42,14 @@ const Contact = () => (
             <h3>PESAN:</h3>
 
             <textarea
-              name="message"
-              placeholder="Tulis pesan..."
+              name='message'
+              placeholder='Tulis pesan...'
             />
           </div>
         </form>
       </div>
     </div>
   </div>
-);
+)
 
-export default Contact;
+export default Contact
