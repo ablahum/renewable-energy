@@ -1,10 +1,33 @@
 .contact__content {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
+  justify-content: center;
+}
+
+.contact__content-img {
+  margin-right: 3em;
+  min-width: 400px;
+}
+
+.contact__content-img img {
+  width: 100%;
+}
+
+.contact__content-form {
+  width: 100%;
+}
+
+.contact__content-form > div {
+  margin-bottom: 1em;
+}
+
+label {
+  font-weight: 700;
 }
 
 input {
+  padding: 0.5em;
+  margin-top: 0.5em;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -12,9 +35,23 @@ input {
 }
 
 textarea {
+  padding: 0.5em;
+  margin-top: 0.5em;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.contact__content-form button {
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: var(--white);
+  background: var(--bg-button);
+  filter: var(--button-shadow);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
   width: 100%;
 }
 

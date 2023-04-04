@@ -1,37 +1,37 @@
-import './navbar-sm.css';
-import hamburger from '../../assets/hamburger.svg';
-import close from '../../assets/close.svg';
-import logo from '../../assets/logo.svg';
+import './navbar-sm.css'
+import hamburger from '../../assets/hamburger.svg'
+import close from '../../assets/close.svg'
+import logo from '../../assets/logo.svg'
 
 const NavbarSm = ({ trigger, setTrigger }) => (
-  <div className="nav__sm">
+  <div className='nav__sm'>
     <img
       src={hamburger}
-      alt="hamburger menu"
-      className="nav__sm-icon"
+      alt='hamburger menu'
+      className='nav__sm-icon'
       onClick={() => setTrigger(true)}
     />
 
     {trigger && (
-      <div className="nav__sm-overlay">
+      <div className='nav__sm-overlay'>
         <img
           src={close}
-          alt="close menu"
-          className="nav__sm-close"
+          alt='close menu'
+          className='nav__sm-close'
           onClick={() => setTrigger(false)}
         />
 
-        <ul className="nav__sm-menu">
+        <ul className='nav__sm-menu'>
           <li>
             <img
               src={logo}
-              alt="logo"
+              alt='logo'
             />
           </li>
 
           <li>
             <a
-              href="#home"
+              href='#home'
               onClick={() => setTrigger(false)}
             >
               HOME
@@ -40,7 +40,7 @@ const NavbarSm = ({ trigger, setTrigger }) => (
 
           <li>
             <a
-              href="#about"
+              href='#about'
               onClick={() => setTrigger(false)}
             >
               ABOUT
@@ -49,7 +49,7 @@ const NavbarSm = ({ trigger, setTrigger }) => (
 
           <li>
             <a
-              href="#pricing"
+              href='#pricing'
               onClick={() => setTrigger(false)}
             >
               PRICING
@@ -58,7 +58,7 @@ const NavbarSm = ({ trigger, setTrigger }) => (
 
           <li>
             <a
-              href="#contact"
+              href='#contact'
               onClick={() => setTrigger(false)}
             >
               CONTACT
@@ -68,6 +68,6 @@ const NavbarSm = ({ trigger, setTrigger }) => (
       </div>
     )}
   </div>
-);
+)
 
-export default NavbarSm;
+export default NavbarSm

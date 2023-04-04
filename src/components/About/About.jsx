@@ -21,7 +21,7 @@ const About = () => (
       </div>
 
       <div className='about__content-desc'>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, quis in volutpat quam mi sagittis augue fringilla justo. Quam sit consectetur enim facilisis nulla.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, quis in volutpat quam mi sagittis augue fringilla justo. Quam sit consectetur enim facilisis nulla.</p>
       </div>
     </div>
   </div>
