@@ -1,4 +1,4 @@
-import './pricing.css';
+import './pricing.css'
 
 const datas = [
   {
@@ -19,15 +19,15 @@ const datas = [
     price: 100,
     desc: ['Ut sit quam faucibus et.', 'Auctor augue massa.', 'Porta sapien.', 'Elementum sagittis in at.', 'Sapien et arcu in.'],
   },
-];
+]
 
 const Card = ({ title, price, desc }) => (
-  <div className="card">
-    <div className="card__title">
+  <div className='card'>
+    <div className='card__title'>
       <h3>{title}</h3>
     </div>
 
-    <div className="card__price">
+    <div className='card__price'>
       <p>Rp</p>
 
       <h4>{price}</h4>
@@ -37,7 +37,7 @@ const Card = ({ title, price, desc }) => (
 
     <p>termasuk PPN</p>
 
-    <div className="card__lists">
+    <div className='card__lists'>
       <ul>
         {desc.map((item, i) => (
           <li key={i}>{item}</li>
@@ -45,18 +45,18 @@ const Card = ({ title, price, desc }) => (
       </ul>
     </div>
   </div>
-);
+)
 
 const Pricing = () => (
   <div
-    className="pricing section container"
-    id="pricing"
+    className='pricing section container'
+    id='pricing'
   >
-    <div className="title">
+    <div className='title'>
       <h2>Pricing</h2>
     </div>
 
-    <div className="pricing__content">
+    <div className='pricing__content'>
       {datas.map((data) => (
         <Card
           key={data.id}
@@ -68,5 +68,5 @@ const Pricing = () => (
       ))}
     </div>
   </div>
-);
-export default Pricing;
+)
+export default Pricing

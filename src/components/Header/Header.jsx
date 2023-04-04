@@ -3,7 +3,7 @@ import header from '../../assets/header.svg'
 
 const Header = () => (
   <div
-    className='header section container'
+    className='header container'
     id='home'
   >
     <div className='header__content'>

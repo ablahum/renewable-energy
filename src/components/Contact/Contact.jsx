@@ -11,43 +11,43 @@ const Contact = () => (
     </div>
 
     <div className='contact__content'>
-      {/* <div>
+      <div className='contact__content-img'>
         <img
           src={contact}
-          alt="house"
+          alt='house'
         />
-      </div> */}
-
-      <div>
-        <form>
-          <div>
-            <h3>NAMA:</h3>
-
-            <input
-              type='text'
-              placeholder='Tulis nama...'
-            />
-          </div>
-
-          <div>
-            <h3>EMAIL:</h3>
-
-            <input
-              type='text'
-              placeholder='Tulis email...'
-            />
-          </div>
-
-          <div>
-            <h3>PESAN:</h3>
-
-            <textarea
-              name='message'
-              placeholder='Tulis pesan...'
-            />
-          </div>
-        </form>
       </div>
+
+      <form className='contact__content-form'>
+        <div className='contact__name'>
+          <label>NAMA:</label>
+
+          <input
+            type='text'
+            placeholder='Tulis nama...'
+          />
+        </div>
+
+        <div className='contact__email'>
+          <label>EMAIL:</label>
+
+          <input
+            type='text'
+            placeholder='Tulis email...'
+          />
+        </div>
+
+        <div className='contact__message'>
+          <label>PESAN:</label>
+
+          <textarea
+            name='message'
+            placeholder='Tulis pesan...'
+          />
+        </div>
+
+        <button type='submit'>kirim</button>
+      </form>
     </div>
   </div>
 )
