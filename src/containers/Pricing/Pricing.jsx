@@ -49,7 +49,7 @@ const Card = ({ title, price, desc }) => (
 
 const Pricing = () => (
   <div
-    className='pricing section container'
+    className='section container'
     id='pricing'
   >
     <div className='title'>
