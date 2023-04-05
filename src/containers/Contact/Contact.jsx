@@ -3,7 +3,7 @@ import contact from '../../assets/contact.svg'
 
 const Contact = () => (
   <div
-    className='contact section container'
+    className='section container'
     id='contact'
   >
     <div className='title'>

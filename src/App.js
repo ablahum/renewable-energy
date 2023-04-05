@@ -1,4 +1,4 @@
-import { Navbar, Header, About, Pricing, Testimonial, Partner, Contact, Footer } from './components';
+import { Navbar, Header, About, Pricing, Testimonial, Partner, Contact, Footer } from './containers'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 
       <Footer />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
